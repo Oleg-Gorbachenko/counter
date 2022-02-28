@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    margin: 200px 700px;
+    border: aqua 2px solid;
+    padding: 200px;
+    background: aqua;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.counter {
+    display: flex;
+    border: #61dafb 2px solid;
+    font-size: 100px;
+}
+
+.value {
+    display: flex;
+
+}
+
+.button_wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    font-size: 30px;
+}
