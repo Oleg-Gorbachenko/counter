@@ -1,0 +1,23 @@
+.button:enabled {
+    font-size: 30px;
+    margin: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    border: aqua 2px solid;
+    color: #282c34;
+}
+
+.button:enabled:active{
+    font-size: 30px;
+    margin: 10px;
+    background-color: #282c34;
+    border-radius: 10px;
+    border: #282c34 2px solid;
+    color: aqua;
+}
+
+.button:disabled {
+    font-size: 30px;
+    margin: 10px;
+    border-radius: 10px;
+}
