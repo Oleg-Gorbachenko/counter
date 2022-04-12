@@ -49,7 +49,6 @@ export const appReducer = (state = initialState, action: appReducersType): initi
             return {...state, value: action.value + 1}
         }
         case 'RESET-COUNTER' : {
-
             return {...state, value: action.startValue}
         }
         case 'SET-DISABLED-INC' : {
