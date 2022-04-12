@@ -47,7 +47,6 @@ function App() {
     }
     const onSetClick = () => {
         dispatch(setValuesInCounterAC(startValue, maxValue))
-        console.log('Записал в локалстор')
     }
 
     return (
