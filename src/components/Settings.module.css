@@ -2,7 +2,7 @@
     display: flex;
     width: 100%;
     max-width: 2000px;
-    height: 100%;
+    min-height: 50vh;
     padding: 30px;
     background: #2d2c2f;
     flex-direction: column;
@@ -54,6 +54,7 @@
     border-radius: 5px;
     border: aqua 2px solid;
     text-align: center;
+    font-weight: bold;
 }
 
 .inputRed {
