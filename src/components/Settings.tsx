@@ -4,14 +4,14 @@ import {Button} from "./Button";
 
 type SettingsPropsType = {
     value: number
-    setValue: (value: number) => void
+    // setValue: (value: number) => void
     startValueHandler: (e: ChangeEvent<HTMLInputElement>) => void
     startValue: number
     maxValue: number
     onSetClick: () => void
     maxValueHandler: (e: ChangeEvent<HTMLInputElement>) => void
     disabledSet: boolean
-    setDisabledSet: (arg0: boolean) => void
+    // setDisabledSet: (arg0: boolean) => void
     error: boolean
 }
 
